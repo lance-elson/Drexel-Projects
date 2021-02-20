@@ -16,7 +16,7 @@
 #   therefore, was skewed towards coffee drinkers.
 # - Population age was heavily skewed towards college students
 # - 7 out of 65 participants are smokers
-# - 20 possible rating integers, as opposed to continuous values
+# - 20 possible rating integers
 
 ################################################################################
 # Data collected:
