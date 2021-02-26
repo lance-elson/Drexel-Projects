@@ -6,16 +6,9 @@
 # 65-participant study observing coffee taste preferences between light, medium,
 # and dark roasts given to each participant in a random order. Team conducted 1
 # test on Monday, and 1 test on Wednesday at the same location. Water is used as
-# a pallete cleanser between taste tests. The objective is to find relationships
+# a palate cleanser between taste tests. The objective is to find relationships
 # between coffee preferences, demographic data, and habitual data for
 # marketing applications.
-
-################################################################################
-# Error sources
-# - Test was conducted next to a Starbucks in a college building. Our population,
-#   therefore, was skewed towards coffee drinkers.
-# - Population age was heavily skewed towards college students
-# - 7 out of 65 participants are smokers
 
 ################################################################################
 # Data collected:
@@ -25,7 +18,7 @@
 #   MediumRoastRating - Roast rating on a scale of -10 (hated it) to 10 (loved it)
 #   LightRoastRating - Roast rating on a scale of -10 (hated it) to 10 (loved it)
 #   FavCoffee - Calculated value observing which roast participant liked the most
-#   Major - What college major someone is. Cleaned up for considtency.
+#   Major - What college major someone is. Cleaned up for consistency.
 #   Gender - Participant gender
 #   Age - Participant age
 #   AgeStartDrinkCoffee - Participant's age at which they started drinking coffee
@@ -38,15 +31,21 @@
 #   DaysWeekDrinkCoffee - How many days a week participant drinks coffee
 #   CoffeeflozPerDay - How much coffee a participant drinks on days they drink coffee
 #   CaffieneIndex - How a person drinks their coffee on a scale of decaf (0) to 
-#   extremely caffinated (10)
-#   OtherCaf - Whether a person regularly drinks other caffinated beverages besides
+#   extremely caffineated (10)
+#   OtherCaf - Whether a person regularly drinks other caffineated beverages besides
 #   coffee
 #   EstWeekCoffeeCafCons - Calculated field using the above metrics determining
-#   how much caffiene participant gets from coffee every week
+#   how much caffeine participant gets from coffee every week
+
+################################################################################
+# Error sources
+# - Test was conducted next to a Starbucks in a college building. Our population,
+#   therefore, was skewed towards coffee drinkers.
+# - Population age was heavily skewed towards college students
+# - Only 7 out of 65 participants are smokers
 
 ################################################################################
 # I. Importing data
-
 # Coffee roasts separated by column
 data <- read.csv("_stat206projdata.csv", as.is=T)
 # Coffee roasts separated by row
@@ -71,12 +70,14 @@ summary(data)
 # Relevant for sources of error 
 
 # Checking rating distributions normality
-hist(data$MediumRoastRating, breaks = 15, xlab = "Medium Roast Rating",
-     main = "Histogram of Medium Roast Ratings", col = "ivory3")
+par(mfrow=c(1,3))
 hist(data$DarkRoastRating, breaks = 15,xlab = "Dark Roast Rating",
      main = "Histogram of Dark Roast Ratings", col = "ivory4")
+hist(data$MediumRoastRating, breaks = 15, xlab = "Medium Roast Rating",
+     main = "Histogram of Medium Roast Ratings", col = "ivory3")
 hist(data$LightRoastRating, breaks = 15, xlab = "Light Roast Rating",
      main = "Histogram of Light Roast Ratings", col = "ivory")
+par(mfrow=c(1,1))
 # Confirmed skew towards coffee drinkers. People generally like coffee.
 
 # Numbers of favorite coffee roasts
