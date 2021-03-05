@@ -1,0 +1,10 @@
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.csprojAssemblyReference.cache
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.CreditCheckForm.resources
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.Properties.Resources.resources
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.csproj.GenerateResource.cache
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.csproj.CoreCompileInputs.cache
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\bin\Debug\CheckCredit.exe.config
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\bin\Debug\CheckCredit.exe
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\bin\Debug\CheckCredit.pdb
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.exe
+C:\Users\Lance\source\repos\CheckCredit\CheckCredit\obj\Debug\CheckCredit.pdb
