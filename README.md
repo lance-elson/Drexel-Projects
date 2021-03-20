@@ -1,4 +1,5 @@
 Contains projects done at Drexel University, sorted by class
+
 STAT331 - Introduction to Data Mining for Business, Winter 2021
 STAT206 - Statistical Inference II, Winter 2020
 
