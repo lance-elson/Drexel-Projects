@@ -6,3 +6,5 @@ STAT206 - Statistical Inference II, Winter 2020
 
 Liability Notice :
 All materials contained are used for demonstrative purposes only. If the materials within are used or reproduced in any form, I am not liable.
+
+For Python and C# code samples, please contact me directly
